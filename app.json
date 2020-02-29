@@ -2,6 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/singer/singer",
+    "pages/singerDetail/singerDetail",
+    "pages/songlistDetail/songlistDetail",
     "pages/my/my"
   ],
   "window": {

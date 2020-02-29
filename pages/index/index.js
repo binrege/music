@@ -29,6 +29,7 @@ Page({
             this.setData({
                 recommendList: res.result.splice(0, 6)
             })
+            console.log(this.data.recommendList);
         }).catch(err => {
             console.log(err);
         })
@@ -79,7 +80,7 @@ Page({
      */
     onLoad: function(options) {
         this.getData()
-        this.getRecommend("")
+        this.getRecommend(100)
         this.getNewsong()
         this.getDjprogram(),
             this.getProgram()

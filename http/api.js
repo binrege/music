@@ -34,5 +34,12 @@ export default {
     getProgram() {
         return fly.get(`/program/recommend`)
     },
-
+    //获取歌手列表
+    getSinger(id, word) {
+        return fly.get(`/artist/list?cat=${id}&initial=${word}`)
+    },
+    //拼接歌手
+    getMoreSinger(id, word, offset) {
+        return fly.get(`/artist/list?cat=${id}&initial=${word}&offset=${offset}`)
+    },
 }

@@ -12,12 +12,16 @@
 }
 
 .swiper {
+    width: 676rpx;
+    margin: 0 auto;
+    height: 250rpx;
     border-radius: 10rpx;
 }
 
 .swiper-image {
-    width: 100%;
+    width: 676rpx;
     margin: 0 auto;
+    height: 250rpx;
     border-radius: 10rpx;
 }
 
