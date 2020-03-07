@@ -37,3 +37,11 @@
 .contain {
     height: 60rpx;
 }
+
+
+/* 横向滚动 */
+
+.scroll-view_H {
+    white-space: nowrap;
+    display: inline-block;
+}
